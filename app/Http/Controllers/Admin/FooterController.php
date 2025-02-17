@@ -38,7 +38,7 @@ class FooterController extends Controller
 
     public function create()
     {
-        return view('admin.content_management.footer.create');
+        return view('admin.content_management.footer.create', ['page_title' => 'Add Footer']);
     }
 
     public function edit(Footer $footer)
@@ -97,10 +97,6 @@ class FooterController extends Controller
     public function preview($id)
     {
         $footer = Footer::find($id);
-
-        // foreach(json_decode(json_decode($footer->items)) as $item){
-        //     return $item;
-        // }
         return view('admin.content_management.footer.preview', compact('footer'));
     }
     public function destroy(Footer $footer)

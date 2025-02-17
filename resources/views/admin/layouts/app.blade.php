@@ -11,7 +11,7 @@
     </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="{{ asset('fab_icon.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('logo.svg') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
     <link href="{{ asset('backend/admin/css/datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('backend/admin/css/vis-timeline.bundle.css') }}" rel="stylesheet" type="text/css" />
@@ -55,7 +55,7 @@
                         class="app-container container-fluid d-flex justify-content-center flex-column flex-md-row flex-center flex-md-stack py-3">
                             <div class="text-dark order-2 order-md-1">
                                 <span class="text-muted fw-semibold me-1">Copyright - &copy; {{date('Y')}} </span>
-                                <a href="javascript:void(0);" class="text-gray-800 cursor-default"><b>InstaCertify<b></a>
+                                <a href="javascript:void(0);" class="text-gray-800 cursor-default"><b>CRONUS<b></a>
                             </div>
 
                         </div>

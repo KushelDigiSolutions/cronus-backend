@@ -105,12 +105,13 @@ Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
         Route::get('header-preview/{id}',[HeaderController::class,'preview'])->name('header.preview');
 
         //Footer
+        
         Route::resource('footers',FooterController::class);
         Route::get('footer-preview/{id}',[FooterController::class,'preview'])->name('footer.preview');
 
+
         //Navigation
         Route::resource('navigations',NavigationController::class);
-        //Route::get('footer-preview/{id}',[FooterController::class,'preview'])->name('footer.preview');
 
          //Pages
 
